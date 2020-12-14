@@ -1,0 +1,19 @@
+{
+  "name": "zookeepr",
+  "version": "1.0.0",
+  "description": "Express.js Server to create an API to manage data for a front end site",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Calterat/zookeepr.git"
+  },
+  "author": "Julian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Calterat/zookeepr/issues"
+  },
+  "homepage": "https://github.com/Calterat/zookeepr#readme"
+}
