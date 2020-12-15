@@ -4,7 +4,8 @@
   "description": "Express.js Server to create an API to manage data for a front end site",
   "main": "server.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
