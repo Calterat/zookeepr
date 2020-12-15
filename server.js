@@ -61,6 +61,11 @@ app.post('/api/animals/', (req, res) => {
   res.json(req.body);
 })
 
+// parse incoming string or data array
+app.use(express.urlencoded({ extended: true }));
+// parse incoming JSON data
+app.use(express.json());
+
 app.listen(PORT, () => {
   console.log(`API server now on port ${PORT}!`);
 });
