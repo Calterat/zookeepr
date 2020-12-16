@@ -1,8 +1,8 @@
 const router = require('express').Router()
 const path = require('path');
-const animalRoutes = require('../apiRoutes/animalRoutes')
+// const animalRoutes = require('../apiRoutes/animalRoutes')
 
-router.use(animalRoutes);
+// router.use(animalRoutes);
 
 router.get('/', (_req , res) => {
   res.sendFile(path.join(__dirname, '../../public/index.html'));
