@@ -23,7 +23,7 @@ const printResults = resultArr => {
 };
 
 const getAnimals = (formData = {}) => {
-  let queryUrl = '/animals?';
+  let queryUrl = '/api/animals?';
 
   Object.entries(formData).forEach(([key, value]) => {
     queryUrl += `${key}=${value}&`;

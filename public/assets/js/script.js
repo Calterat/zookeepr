@@ -26,7 +26,7 @@ const handleAnimalFormSubmit = event => {
   }
   const animalObject = { name, species, diet, personalityTraits };
 
-  fetch('/animals', {
+  fetch('/api/animals', {
     method: 'POST',
     headers: {
       Accept: 'application/json',

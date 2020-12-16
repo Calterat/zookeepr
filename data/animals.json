@@ -127,6 +127,16 @@
         "anxious"
       ],
       "id": "12"
+    },
+    {
+      "name": "Chewy",
+      "species": "Wookie",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "anxious",
+        "loving"
+      ],
+      "id": "13"
     }
   ]
 }
