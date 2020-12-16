@@ -16,7 +16,7 @@ router.get('/animals/:id', (req, res) => {
   else res.send(404);
 })
 
-router.post('/animals/', (req, res) => {
+router.post('/animals', (req, res) => {
   // set id based on what the next index of the array will be
   req.body.id = animals.length.toString();
 
